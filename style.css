@@ -1,0 +1,50 @@
+html{
+  overflow-x: hidden;
+}
+body{
+  background: #2feff4;
+  width: auto;
+  height: 600px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+
+
+    .baseMenu{
+     height-max: 100%;
+     width: 100%;
+     border: 1px dotted black ;
+     background: #337e80;
+     display:flex;
+
+   }
+
+.icon{
+  float:left;
+  height:auto;
+  margin: 10px;
+  border: 1px dotted black ;
+}
+
+
+ul{
+      display: flex;
+      margin: auto;
+      width: 50%;
+      height: auto;
+      float: right;
+      border: 1px solid red;
+
+       }
+
+li{
+        list-style-type: none;
+        height: auto;
+        float: left;
+        padding: 5px;
+        margin: 3px;
+        border: 1px solid black;
+      }
