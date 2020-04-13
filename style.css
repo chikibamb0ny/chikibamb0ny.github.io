@@ -22,29 +22,48 @@ body{
 
    }
 
-.icon{
-  float:left;
-  height:auto;
-  margin: 10px;
-  border: 1px dotted black ;
-}
 
 
 ul{
       display: flex;
-      margin: auto;
-      width: 50%;
-      height: auto;
-      float: right;
+      margin: 0 auto;
+      width: auto;
+      padding: 0 0;
+      width: auto;
       border: 1px solid red;
+      float: right;
+      align-items:stretch;
+      justify-content: space-around;
 
        }
 
 li{
+        width:auto;
         list-style-type: none;
-        height: auto;
-        float: left;
-        padding: 5px;
-        margin: 3px;
-        border: 1px solid black;
+        /* padding: 0 auto; */
+        padding: 0 15px;
+        border: 1px dotted black;
+        align-items:center;
+        display: flex;
       }
+
+.baseContent{
+width: 90%;
+height: auto;
+margin: 5%;
+background: white;
+border-radius: 10px;
+border: 2px dotted gray;
+
+}
+
+
+.content{
+  width: 90%;
+  height: auto;
+  margin: 5%;
+  background: #ffff20;
+  border-radius: 10px;
+  border: 2px dotted gray;
+
+}
